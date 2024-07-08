@@ -1,0 +1,13 @@
+.main{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  background-color: #23252C;
+  width: 550px;
+  height: 868px;
+}

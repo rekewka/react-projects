@@ -1,0 +1,19 @@
+.about{
+    margin-bottom: 27px;
+}
+
+.content-heading{
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.content-text{
+    color: #DCDCDC;
+    width: 247px;
+    height: 61px;
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: 150%;
+}

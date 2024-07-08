@@ -1,0 +1,37 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1A1B21;
+    width: 317px;
+    height: 780px;
+}
+
+.picture{
+    width: 317px;
+    height: 317px;
+    margin-bottom: 21px;
+}
+
+.name{
+    background-color: #1A1B21;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 6.19px;
+}
+
+.speciality{
+    background-color: #1A1B21;
+    color: #F3BF99;
+    font-size: 12.8px;
+    font-weight: 400;
+    margin-bottom: 8.81px;
+}
+
+.website{
+    background-color: #1A1B21;
+    font-size: 10.24px;
+    color: #F5F5F5;
+    margin-bottom: 14px;
+}
