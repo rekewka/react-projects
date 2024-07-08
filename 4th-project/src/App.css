@@ -1,0 +1,55 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.board{
+  width: 500px;
+  height: 200px;
+  background-color: gold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading{margin-bottom: 40px;}
+
+.buttons{
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.minus{
+  background-color: red;
+  color: white;
+  border: solid red;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  transition : all 0.3s;
+}
+
+.minus:hover{
+  background-color: white;
+  color: red;
+  border: solid white;
+}
+
+.plus{
+  background-color: green;
+  color: white;
+  border: solid green;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  transition : all 0.3s;
+}
+
+.plus:hover{
+  background-color: white;
+  color: green;
+  border: solid white;
+}
