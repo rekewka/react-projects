@@ -1,0 +1,63 @@
+.course-img{
+    width: 220px;
+    height: 300px;
+    margin-bottom: 9px;
+}   
+
+.star{
+    width: 30px;
+    height: 30px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 12px;
+}
+
+.rate{
+    color: #222222;
+    font-weight: 300;
+    letter-spacing: 110%;
+}
+
+.count{
+    color : #918E9B;
+    font-weight: 300;
+    letter-spacing: 110%;
+}
+
+.dot{
+    width: 6.5px;
+}
+
+.dot::marker{
+    color : #918E9B;   
+}
+
+.country{
+    color : #918E9B;
+    font-weight: 300;
+    letter-spacing: 110%;
+}
+
+.name{
+    color: #222222;
+    font-size: 14.8px;
+    font-weight: 300;
+    letter-spacing: 110%;
+    margin-bottom: 12px;
+}
+
+.price{
+    font-weight: 600;
+    color: #222222;
+    letter-spacing: 110%;
+}
+
+span{
+    font-weight: 300;
+    letter-spacing: 110%;
+    color: #222222;
+}

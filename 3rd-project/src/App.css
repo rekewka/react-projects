@@ -1,0 +1,31 @@
+.course{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 100px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+@media (max-width : 980px)
+{
+    .course{
+        gap : 40px;
+    }
+}
+
+@media (max-width : 765px){
+    .course{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.section-text{
+    display: flex;
+    justify-content: center;
+}

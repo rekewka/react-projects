@@ -1,0 +1,38 @@
+.medi{
+    display: none;
+}
+
+@media (max-width : 700px)
+{
+    .medi{
+        display: block;
+        width: 600px;
+    }
+    .img{
+        display: none;
+    }
+}
+
+@media (max-width : 620px){
+    .medi{
+        width: 500px;
+    }
+}
+
+@media (max-width : 540px){
+    .medi{
+        width: 430px;
+    }
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.img{
+    height: 400px;
+    width: 700px;
+}
+
