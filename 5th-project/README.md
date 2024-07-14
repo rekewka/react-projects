@@ -1,3 +1,5 @@
+SIMPLE TO-DO APP WITH LOCAL STORAGE IN IT
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
