@@ -16,4 +16,4 @@ here I will leave the links for each project, and if you want to check the code,
 
 5th-project : https://66942c8d0dce1f90397ed0da--gentle-lollipop-878b7c.netlify.app/
 
-6th-project : ukol.kz (customer's website, so didn't upload publicly the code. Website is designed and coded only by me)
+6th-project : https://ukol.kz (customer's website, so didn't upload publicly the code. Website is designed and coded only by me)
