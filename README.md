@@ -15,3 +15,5 @@ here I will leave the links for each project, and if you want to check the code,
 4th-project : https://668c051431558d54786319d1--cheerful-peony-d044dd.netlify.app/
 
 5th-project : https://66942c8d0dce1f90397ed0da--gentle-lollipop-878b7c.netlify.app/
+
+6th-project : ukol.kz (customer's website. website is designed and coded only by me)
