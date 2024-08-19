@@ -19,3 +19,5 @@ here I will leave the links for each project, and if you want to check the code,
 6th-project : https://66bf2bd29b90ff0000d8d6ac--sparkling-starlight-b80fb9.netlify.app/ (zustand, localstorage and etc)
 
 custom-project : https://ukol.kz (customer's website, so didn't upload publicly the code. Website is designed and coded only by me)
+
+7th-project : https://66c3054e5b098b7fd1ea2124--lustrous-melba-13acda.netlify.app/. Default layout + using tailwind 
