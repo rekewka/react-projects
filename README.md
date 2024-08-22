@@ -1,23 +1,50 @@
-# react-projects
-will be only react projects.
+# React + TypeScript + Vite
 
-here I will leave the links for each project, and if you want to check the code, just choose the project file by numeration.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-#links
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-1-st project : https://delicate-khapse-3e59cd.netlify.app/
+## Expanding the ESLint configuration
 
-2-nd project : https://6686ddcac0f6554f320e730f--lighthearted-banoffee-e77852.netlify.app/
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-3-rd project : couldn't host, cuz of some errors while hosting on gh-pages, so I leaved it as a Sort of "did project". It is also mobile adapted, and I consider it as a harder than other first two projects, but if you want to check it locally, then checkout the Readme.md which i provided in 3rd-project folder.
+- Configure the top-level `parserOptions` property like this:
 
-4th-project : https://668c051431558d54786319d1--cheerful-peony-d044dd.netlify.app/
+```js
+export default tseslint.config({
+  languageOptions: {
+    // other options...
+    parserOptions: {
+      project: ['./tsconfig.node.json', './tsconfig.app.json'],
+      tsconfigRootDir: import.meta.dirname,
+    },
+  },
+})
+```
 
-5th-project : https://66942c8d0dce1f90397ed0da--gentle-lollipop-878b7c.netlify.app/
+- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
+- Optionally add `...tseslint.configs.stylisticTypeChecked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-6th-project : https://66bf2bd29b90ff0000d8d6ac--sparkling-starlight-b80fb9.netlify.app/ (zustand, localstorage and etc)
+```js
+// eslint.config.js
+import react from 'eslint-plugin-react'
 
-custom-project : https://ukol.kz (customer's website, so didn't upload publicly the code. Website is designed and coded only by me)
-
-7th-project : https://66c3054e5b098b7fd1ea2124--lustrous-melba-13acda.netlify.app/. Default layout + using tailwind 
+export default tseslint.config({
+  // Set the react version
+  settings: { react: { version: '18.3' } },
+  plugins: {
+    // Add the react plugin
+    react,
+  },
+  rules: {
+    // other rules...
+    // Enable its recommended rules
+    ...react.configs.recommended.rules,
+    ...react.configs['jsx-runtime'].rules,
+  },
+})
+```
